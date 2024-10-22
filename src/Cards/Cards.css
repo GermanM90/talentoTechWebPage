@@ -1,0 +1,22 @@
+.card-estilos{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 30px;
+    margin-bottom: 0%;
+    
+    
+    
+}
+
+.card-img-top{
+    border-radius: 10px;
+    
+}
+
+.card-title{
+    margin-top: 7px;
+}
