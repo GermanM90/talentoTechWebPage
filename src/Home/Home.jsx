@@ -6,7 +6,6 @@ import { Grafics } from "../Grafics/Grafics";
 export const Home = () => {
   return (
     <>
-
       <section>
         <Sliders />
       </section>

@@ -1,0 +1,19 @@
+
+h1,h2,h3,h4,h5{
+    color: rgb(73, 122, 73);
+}
+.card-title{
+    color: rgb(72, 110, 72);
+}
+.card-text{
+    color: rgb(205, 228, 205);
+}
+.p-font{
+    color: rgb(202, 223, 202);
+    font-size: 18px;
+    padding: 8px;
+}
+.card-estilos-graficos-imagen{
+    
+    padding: 30px;
+}

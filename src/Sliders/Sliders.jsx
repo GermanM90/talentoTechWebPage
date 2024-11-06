@@ -15,7 +15,7 @@ export const Sliders = () => {
               <img
                 src="/images/trabajo-comunitario1.jpg"
                 className="d-block w-100"
-                alt="..."
+                alt="imgComunitaria1"
               />
             </div>
           </div>
@@ -24,7 +24,7 @@ export const Sliders = () => {
               <img
                 src="/images/trabajo-comunitario2.jpg"
                 className="d-block w-100"
-                alt="..."
+                alt="imgComunitaria2"
               />
             </div>{" "}
           </div>
@@ -33,7 +33,7 @@ export const Sliders = () => {
               <img
                 src="/images/trabajo-comunitario1.jpg"
                 className="d-block w-100"
-                alt="..."
+                alt="imgComunitaria3"
               />
             </div>
           </div>

@@ -1,4 +1,10 @@
 .carousel-image{
-    height: 500px; /* Ajusta la altura que desees */
+    height: 550px; /* Ajusta la altura que desees */
     object-fit: cover; /* Asegura que la imagen cubra el área */
   }
+
+@media (max-width: 768px) {
+    .carousel-image {
+        height: 300px; /* Ajusta la altura para móviles */
+    }
+}

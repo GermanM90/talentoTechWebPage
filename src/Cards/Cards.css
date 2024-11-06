@@ -1,22 +1,24 @@
 .card-estilos{
     border-radius: 10px;
     background-color: black;
-    color: white;
-    align-items: center;
-    text-align: center;
-    margin-top: 10px;
-    padding: 30px;
-    margin-bottom: 0%;
-    
-    
-    
+    color: rgb(44, 24, 24);   
 }
 
 .card-img-top{
     border-radius: 10px;
+    margin-top: 40px;
     
 }
 
 .card-title{
     margin-top: 7px;
+}
+h1,h2,h3,h4,h5{
+    color: rgb(73, 122, 73);
+}
+.card-title{
+    color: rgb(72, 110, 72);
+}
+.card-text{
+    color: rgb(205, 228, 205);
 }

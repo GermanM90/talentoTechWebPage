@@ -1,0 +1,57 @@
+
+.form-container {
+    margin-top: 30px;
+    background-color: rgb(102, 141, 102);
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    text-align: center;
+        
+
+}
+
+.form-container h2 {
+    color: #072c0a;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+form input::placeholder {
+    color: #072409;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #124b17;
+    color: #bcd4be;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #37e84f;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .container {
+      width: 90%; /* Ocupa un 90% de la pantalla en móviles */
+    }
+    
+    h2 {
+      font-size: 1.5em; /* Ajusta el tamaño del título */
+    }
+}

@@ -1,0 +1,40 @@
+.container{
+  padding: 20px;
+}
+
+  h3{
+    color: rgb(63, 117, 63);
+  }
+
+  p{
+    color: white;
+  }
+
+.botonCalcular{
+background-color: rgb(39, 97, 39);
+color: white;
+width: 200px;
+padding: 10px;
+border-radius: 10px;
+margin-top: 10px;
+font-weight: bold;
+}
+
+.botonBorrar{
+  background-color: yellow;
+color: rgb(0, 0, 0);
+width: 200px;
+padding: 10px;
+border-radius: 10px;
+margin-top: 10px;
+font-weight: bold;
+}
+
+.imagen-proyectos{
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+}
+
+
+

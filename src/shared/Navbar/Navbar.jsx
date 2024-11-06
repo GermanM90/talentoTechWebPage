@@ -1,21 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
     <>
       <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-black">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img
               src="/images/logo.png"
               width="80"
               height="40"
               className="d-inline-block align-text-top"
             />
-          </a>
-          <a className="navbar-brand" href="#">
+          </Link>
+          <Link className="navbar-brand" to="/">
             Inicio
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -30,47 +31,40 @@ export const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Proyecto
-                </a>
+                <Link className="nav-link active" to="/conocenos">
+                  Nosotros
+                </Link>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link active" href="#">
-                  Testimonios
-                </a>
+                <Link className="nav-link active" to="/emprende">
+                  Emprendimientos
+                </Link>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link active" href="#">
-                  Copacitaciones
-                </a>
+                <Link className="nav-link active" to="/proyectos">
+                  Asesoria Financiera
+                </Link>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link active" href="#">
-                  Conocenos
-                </a>
+                <Link className="nav-link active" to="/servicios">
+                  Servicios
+                </Link>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <Link className="nav-link active" to="/contactanos">
                   Contactanos
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <Link className="nav-link active" to="/graficos">
                   Graficos
-                </a>
+                </Link>
               </li>
             </ul>
-            <form className="d-flex">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Buscar"
-                aria-label="Search"
-              />
-              <button className="btn btn-outline-success" type="submit">
-                Sesion
-              </button>
-            </form>
           </div>
         </div>
       </nav>
